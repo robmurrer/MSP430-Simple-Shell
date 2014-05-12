@@ -1,8 +1,3 @@
-% Simple Shell for MSP430 UART 
-% Rob Murrer
-% November 22, 2013
-
-
 # User Manual
 
 The Simple Shell for MSP430 UART (SSMU) provides a serial interface to the Texas Instruments (TI) MSP-EXP430G2 Experimenter Board.  This interface allows the memory to be displayed or modified and the Arithmetic Logic Unit's (ALU) addition or subtraction can be executed.

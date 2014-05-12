@@ -10,11 +10,11 @@ The Simple Shell for MSP430 UART (SSMU) provides a serial interface to the Texas
 * USB cable with micro-usb connection for connection with the TIEB
 
 ## Getting Started
-#. Connect the TIEB to the computer with the micro-usb cable.
-#. Determine which Com port is being used by the TIEB.  In MS Windows this is done by going to the Control Panel then to Device Manager and then to Ports.  Look for "MSP430 Application UART (COMx) where 'x' would be 1-6 normally.
-#. Open up Terminal program and setup a connection to the TIEB with the Com Port determined in previous step and the configuration of 9600 baud, 8 Data bits, 1 Stop bit, No Parity
-#. Type `HS FFFF FFFF` the result should be `0000` along with the status bits underneath.
-#. The command prompt of `> ` should be displayed and is waiting on the next command.
+1. Connect the TIEB to the computer with the micro-usb cable.
+2. Determine which Com port is being used by the TIEB.  In MS Windows this is done by going to the Control Panel then to Device Manager and then to Ports.  Look for "MSP430 Application UART (COMx) where 'x' would be 1-6 normally.
+3. Open up Terminal program and setup a connection to the TIEB with the Com Port determined in previous step and the configuration of 9600 baud, 8 Data bits, 1 Stop bit, No Parity
+4. Type `HS FFFF FFFF` the result should be `0000` along with the status bits underneath.
+5. The command prompt of `> ` should be displayed and is waiting on the next command.
 
 ## Addition and Subtraction
 The SSMU can be used as a simple calculator performing both addition and subtraction.  The commands `HA` and `HS` are used for addition and subtraction.  These commands take two 4 digit arguments.  The arguments must be valid hexadecimal numbers such as `0FEE` or `AADD`.
@@ -102,27 +102,27 @@ To validate that the Simple Shell for MSP430 UART (SSMU) for the Texas Instrumen
 * Putty 0.63 Terminal Program
 
 ## Setup
-#. Turn on computer and wait for operating system to fully load.
-#. Plug USB cable into computer and TIEB.
-#. Start the CCS application from the `Start Menu`.
-#. From the `File` menu select `Import...`
-#. Select the folder that contains the Project files for the SSMU.
-#. Select `Code Composer Studio` then `Existing CCS Eclipse Projects`.
-#. Browse for project folder and click finish.
-#. From the `View` menu select `Project Explorer`.
-#. Click the project and it will become the active project.
-#. Press the `F11` Key and the project will compile and load.
-#. Wait until the compilation is finished and press the `F8` key.
-#. Press the `Windows` key and the `Pause/Break` key at the same time.
-#. Click on the `Device Manager` link.
-#. Select the `Ports` item.
-#. Look for the `MSP430 Application UART` and record the Com Port.
-#. Start the Putty Application.
-#. In the Putty Settings set the `connection type` to `serial`.
-#. Enter the `Serial line` as `COMx` where x is the value found in previously.
-#. Set `Speed` to `9600`.
-#. The defaults in Putty are adequate: `Data bits`: 8, `Stop bit`: 1, `Parity`: None.
-#. The SSMU is now ready to be tested.
+1. Turn on computer and wait for operating system to fully load.
+2. Plug USB cable into computer and TIEB.
+3. Start the CCS application from the `Start Menu`.
+4. From the `File` menu select `Import...`
+5. Select the folder that contains the Project files for the SSMU.
+6. Select `Code Composer Studio` then `Existing CCS Eclipse Projects`.
+7. Browse for project folder and click finish.
+8. From the `View` menu select `Project Explorer`.
+9. Click the project and it will become the active project.
+10. Press the `F11` Key and the project will compile and load.
+11. Wait until the compilation is finished and press the `F8` key.
+12. Press the `Windows` key and the `Pause/Break` key at the same time.
+13. Click on the `Device Manager` link.
+14. Select the `Ports` item.
+15. Look for the `MSP430 Application UART` and record the Com Port.
+16 Start the Putty Application.
+17. In the Putty Settings set the `connection type` to `serial`.
+18. Enter the `Serial line` as `COMx` where x is the value found in previously.
+19. Set `Speed` to `9600`.
+20. The defaults in Putty are adequate: `Data bits`: 8, `Stop bit`: 1, `Parity`: None.
+21. The SSMU is now ready to be tested.
 
 
 ## Basic Addition
